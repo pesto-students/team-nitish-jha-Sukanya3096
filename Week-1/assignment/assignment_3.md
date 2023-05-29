@@ -49,4 +49,4 @@ However, as the popularity of cloud computing has surged, some companies have st
 
 **$\color{LightBlue}{Reseller\ Hosting:}$** Reseller hosting makes it is possible for you to start your own hosting business and generate clients under your brand. In Reseller hosting, you employ the services of another parent web hosting company and utilize their resources to sell it as your own. It is an option that involves one hosting provider company that rents bandwidth and hard drive space, another mid-size business company, which then rents the space to third parties entrepreneurs and small businesses. In reseller hosting, you get a shared environment where you create multiple shared accounts under one master account.
 
-![https://www.redswitches.com/wp-content/uploads/2020/02/redswitches-blog-types-of-web-hosting-services-explained.jpg](https://www.redswitches.com/wp-content/uploads/2020/02/redswitches-blog-types-of-web-hosting-services-explained.jpg)
+![Web Hosting](https://github.com/pesto-students/team-nitish-jha-Sukanya3096/assets/49310523/8263cd20-2feb-448a-9650-6c58ff106c37)

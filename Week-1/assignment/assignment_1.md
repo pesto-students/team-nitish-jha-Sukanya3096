@@ -4,7 +4,7 @@
 
 A protocol stack is a group of protocols that all work together to allow software or hardware to perform a function.
 
-![https://cdn.kastatic.org/ka-perseus-images/6a0cd3a5b7e709c2f637c959ba98705ad21e4e3c.svg](https://cdn.kastatic.org/ka-perseus-images/6a0cd3a5b7e709c2f637c959ba98705ad21e4e3c.svg)
+![protocol](https://github.com/pesto-students/team-nitish-jha-Sukanya3096/assets/49310523/cbf9a59e-ef28-4fc0-b843-4f0dd130fafc)
 
 **$\color{LightBlue}{Layer\ 1:}$** **$\color{Orange}{Link\ Layer}$** - At the bottom layer, two computing devices need a physical mechanism to send digital data to each other. They send electromagnetic signals either over a wired or wireless connection and interpret the signal as bits. The type of physical connection affects the bit rate and bandwidth.
 
