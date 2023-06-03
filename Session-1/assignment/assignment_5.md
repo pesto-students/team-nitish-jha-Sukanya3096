@@ -10,6 +10,8 @@ Search engines recommend SEO efforts that benefit both the user search experienc
 
 Search engines provide results for any search query a user enters. To do so, they survey and “understand” the vast network of websites that make up the web. They run a sophisticated algorithm that determines what results to display for each search query.
 
+![SEO working](https://github.com/pesto-students/team-nitish-jha-Sukanya3096/assets/49310523/d43a9939-a54b-4737-88ee-8f0b587b0add)
+
 ### $\color{Yellow} {Ways\ to\ optimize\ their\ websites\ for\ better\ search\ engine\ rankings}$
 
 #### 1. Publish Relevant, Authoritative Content
