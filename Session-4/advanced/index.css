@@ -1,0 +1,128 @@
+nav {
+  text-align: center;
+}
+h1 {
+  color: dimgrey;
+}
+header {
+  position: fixed;
+  width: 100%;
+  background: white;
+  top: 0;
+  z-index: 1;
+}
+
+main {
+  margin-top: 10%;
+}
+footer p {
+  color: dimgray;
+  text-align: end;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #b8b5b5;
+  overflow: hidden;
+}
+li {
+  display: inline;
+  padding-right: 4px;
+}
+li a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: dimgray;
+}
+
+h1 a {
+  text-decoration: none;
+  color: dimgray;
+}
+.restuarantHeader {
+  text-align: center;
+}
+.imageCenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ratings css */
+.ratings {
+  position: relative;
+  vertical-align: middle;
+  display: inline-block;
+  color: #b1b1b1;
+  overflow: hidden;
+  left: 47vw;
+}
+.full-stars {
+  position: absolute;
+  left: 0;
+  top: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #fde16d;
+}
+.empty-stars:before,
+.full-stars:before {
+  content: "\2605\2605\2605\2605\2605";
+  font-size: 12pt;
+}
+.empty-stars:before {
+  -webkit-text-stroke: 1px #848484;
+}
+.full-stars:before {
+  -webkit-text-stroke: 1px orange;
+}
+/* rating css end */
+
+section p {
+  color: dimgray;
+  text-align: center;
+}
+
+section h1 {
+  text-align: center;
+  color: #6f6f6f;
+}
+
+.restuarant_overview {
+  color: #6f6f6f;
+  font-weight: bold;
+}
+
+.contact_section {
+  width: 20%;
+  height: 50%;
+  margin: 0 auto;
+}
+
+.contact_section p {
+  text-align: start;
+}
+
+/* form css */
+.web-form {
+  width: fit-content;
+}
+
+.form-items {
+  display: grid;
+  padding: 5px;
+}
+.social-form-items-spacing {
+  grid-template-columns: 1fr 3fr;
+}
+.form_section {
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+}
+/* form css end */
