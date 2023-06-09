@@ -19,6 +19,11 @@ footer p {
   color: dimgray;
   text-align: end;
 }
+footer.review {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
 ul {
   list-style-type: none;
   margin: 0;
