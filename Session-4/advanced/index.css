@@ -111,6 +111,7 @@ section h1 {
 /* form css */
 .web-form {
   width: fit-content;
+  margin: 0 auto;
 }
 
 .form-items {
