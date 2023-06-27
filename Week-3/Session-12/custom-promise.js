@@ -21,11 +21,17 @@ class CustomPromise {
   }
 
   then(onFulfilled, onRejected) {
+    // returns new promise
     return new CustomPromise((resolve, reject) => {
       const fulfilledCallback = () => {
         if (!onFulfilled) {
           return resolve(this.#value);
         }
+        /*
+        queueing as a microtask instead of calling immediately
+        as callback functions that we pass to this.then, do not run immediately
+        but wait until other codes in callstack are finished
+        */
         queueMicrotask(() => {
           try {
             const value = onFulfilled(this.#value);
@@ -72,12 +78,14 @@ class CustomPromise {
   }
 
   #resolve(value) {
+    // resolve the value
     this.#value = value;
     this.#state = STATE.FULFILLED;
     this.#fulfilledCallbacks.forEach((callback) => callback());
   }
 
   #reject(reason) {
+    // reject the value
     this.#value = reason;
     this.#state = STATE.REJECTED;
     this.#rejectedCallbacks.forEach((callback) => callback());

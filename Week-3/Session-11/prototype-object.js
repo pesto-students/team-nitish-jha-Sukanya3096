@@ -6,6 +6,8 @@ const person = function (name, age, email) {
   this.email = email;
 };
 
+// adding methods through prototype so that all instances of person constructor function will inherit the methods
+// so this method is not attached to every single instance, but can be used through prototypal inheritance
 person.prototype.getAge = function () {
   return this.age;
 };
@@ -16,6 +18,7 @@ person.prototype.setAge = function (age) {
 
 const me = new person("Sukanya", 27, "isukanyadutta@gmail.com");
 
+// making property read-only through defineProperty
 Object.defineProperty(me, "email", {
   writable: false,
   configurable: false,
@@ -37,6 +40,7 @@ class Vehicle {
   }
 }
 
+// ES6 class inheritance
 class Car extends Vehicle {
   constructor(make, model, year, numDoors) {
     super(make, model, year);
