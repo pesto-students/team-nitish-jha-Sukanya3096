@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../index.css" />
+    <title>Birthday Message Creator</title>
+  </head>
+  <body>
+    <h1>Happy Birthday Message Creator</h1>
+    <section>
+      <form class="web-form" method="post" enctype="multipart/form-data">
+        <div class="form-items message-form-items-spacing">
+          <label for="message">Message?</label>
+          <input
+            type="text"
+            required
+            id="message"
+            name="message"
+            value="Happy birthday!"
+          />
+        </div>
+        <div class="form-items message-form-items-spacing">
+          <label for="email">Email address?</label>
+          <input
+            type="text"
+            pattern="[a-zA-Z0-9-_\.]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-
+            9-]+)*"
+            id="email"
+            name="email"
+          />
+        </div>
+        <div class="form-items message-form-items-spacing">
+          <label for="date">Date to send?</label>
+          <input type="date" id="date" name="date" />
+        </div>
+        <div class="form-items message-form-items-spacing">
+          <label for="color">Message color?</label>
+          <input type="color" id="color" name="color" />
+        </div>
+        <div class="form-items message-form-items-spacing">
+          <label for="blink">Number of blinks?</label>
+          <input
+            type="number"
+            id="blink"
+            name="blink"
+            min="0"
+            max="10"
+            value="0"
+          />
+        </div>
+        <div class="form-items message-form-items-spacing">
+          <label for="music">Music volume?</label>
+          <input
+            type="range"
+            id="music"
+            name="music"
+            min="0"
+            max="50"
+            value="20"
+          />
+        </div>
+        <div>
+          <button type="submit" value="Submit">Send Birthday Message</button>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>

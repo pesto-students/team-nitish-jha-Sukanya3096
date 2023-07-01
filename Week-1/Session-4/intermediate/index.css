@@ -1,0 +1,16 @@
+.web-form {
+  width: fit-content;
+}
+.form-items {
+  display: grid;
+  padding: 5px;
+}
+.social-form-items-spacing {
+  grid-template-columns: 1fr 3fr;
+}
+.message-form-items-spacing {
+  grid-template-columns: 3fr 3fr;
+}
+legend ~ label {
+  cursor: pointer;
+}

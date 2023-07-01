@@ -1,0 +1,26 @@
+:root {
+  --arial-font: Arial;
+  --roman-font: "Times New Roman";
+}
+
+img {
+  width: 300px;
+}
+h1 {
+  padding: 5px;
+  font-family: var(--arial-font);
+  font-size: 24px;
+  color: white;
+  background-color: red;
+}
+#author-name-and-date {
+  font-family: var(--arial-font);
+  font-size: 12px;
+  color: lightgray;
+}
+p,
+ol {
+  font-family: var(--roman-font);
+  font-size: 16px;
+  color: blue;
+}

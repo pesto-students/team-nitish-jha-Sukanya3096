@@ -1,0 +1,22 @@
+:root {
+  --table-color: #307d44;
+  --row-bg-color: #e0f8e6;
+}
+
+#game-table {
+  border: 2px solid var(--table-color, #21c04b);
+  text-align: center;
+  height: 200px;
+  width: 400px;
+}
+
+table caption {
+  text-transform: uppercase;
+  background-color: var(--table-color, #21c04b);
+  color: #ffff;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: var(--row-bg-color, #e0f8e6);
+}

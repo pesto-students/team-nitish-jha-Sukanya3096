@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Add Review | Restaurant Reviews</title>
+  </head>
+  <body>
+    <header>
+      <h1>Restaurant Reviews</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="./index.html"> Home </a>
+          </li>
+          <li>
+            <a href="#"> Add Review </a>
+          </li>
+          <li>
+            <a href="./about.html"> About </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h1>Add Review</h1>
+      </section>
+      <section class="form_section">
+        <form action="#" class="web-form" method="post">
+          <div class="form-items social-form-items-spacing">
+            <label for="fullName">Name:</label>
+            <input type="text" required id="fullName" name="fullName" />
+          </div>
+          <div class="form-items social-form-items-spacing">
+            <label for="restaurant">Restaurant:</label>
+            <select name="restaurant" required id="restaurant">
+              <option value="" selected disabled>Choose One..</option>
+              <option value="main_street_cafe">Main Street Cafe</option>
+              <option value="greek_house">Greek House</option>
+            </select>
+          </div>
+          <div class="form-items social-form-items-spacing">
+            <label for="date">Date of visit</label>
+            <input type="date" id="date" required name="date" />
+          </div>
+          <div class="form-items social-form-items-spacing">
+            <label for="rating">Rating</label>
+            <input
+              type="number"
+              step="0.1"
+              id="rating"
+              name="rating"
+              required
+              min="0"
+              max="5"
+            />
+          </div>
+          <div class="form-items social-form-items-spacing">
+            <label for="about">Details</label>
+            <textarea name="about" id="about" cols="50" rows="3"></textarea>
+          </div>
+          <div>
+            <button type="submit" value="Submit">Submit</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer class="review">
+      <p>&copy 2023 Restaurant Reviews</p>
+    </footer>
+  </body>
+</html>

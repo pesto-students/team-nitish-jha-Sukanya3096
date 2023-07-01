@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../index.css" />
+    <title>Social Network Webform</title>
+  </head>
+  <body>
+    <h1>Join a Social Network</h1>
+    <section>
+      <form class="web-form" method="post" enctype="multipart/form-data">
+        <div class="form-items social-form-items-spacing">
+          <label for="fullName">Full name:</label>
+          <input type="text" required id="fullName" name="fullName" />
+        </div>
+        <div class="form-items social-form-items-spacing">
+          <label for="email">Email address:</label>
+          <input type="text" required id="email" name="email" />
+        </div>
+        <div class="form-items social-form-items-spacing">
+          <label for="about">About you:</label>
+          <textarea name="about" id="about" cols="50" rows="3"></textarea>
+        </div>
+        <div class="form-items social-form-items-spacing">
+          <label for="picture">Photo:</label>
+          <input type="file" id="picture" name="picture" />
+        </div>
+        <div>
+          <button type="submit" value="Submit">Submit</button>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
