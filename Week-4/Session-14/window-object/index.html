@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Window object</title>
+  </head>
+  <body onload="displayWindowProperties()">
+    <script>
+      function displayWindowProperties() {
+        console.log("UserAgent: ", navigator.userAgent);
+        console.log(
+          `Screen width: ${window.screen.height}, Screen height: ${window.screen.width}`
+        );
+        console.log("location: ", location.href);
+        sessionStorage.setItem("lastname", "Dutta");
+        console.log(sessionStorage.getItem("lastname"));
+        localStorage.setItem("firstName", "Sukanya");
+        console.log(localStorage.getItem("firstName"));
+      }
+    </script>
+  </body>
+</html>
